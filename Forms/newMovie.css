@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family:monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    color: white;
+    background-color: black;
+    width: 100%;
+  }
+  .newMovie-container{
+    width: 100%;
+    max-width: 100rem;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .delete-container{
+    width: 100%;
+    max-width: 100rem;
+    margin-top: 8vh;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .form{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 80%;
+  }
+
+table{
+  width: 50%;
+}
+
+.bookings{
+  width: 100%;
+    max-width: 100rem;
+    margin-top: 8vh;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.setButton, .captcha-refresh, .login{
+  border: none;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.button-section{
+  padding: 20px 0;
+}
